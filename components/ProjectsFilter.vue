@@ -18,6 +18,7 @@ export default defineComponent({
       ],
     },
   },
+  emits: ['change'],
 });
 </script>
 

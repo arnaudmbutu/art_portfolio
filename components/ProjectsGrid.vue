@@ -6,11 +6,12 @@ import feather from 'feather-icons';
 export default defineComponent({
   setup() {
     const store = useProjectStore();
-    const selectedProject = ref('');
-    const searchProject = ref('');
+    const selectedProject = ref<string>('');
+    const searchProject = ref<string>('');
 
     const filteredProjects = computed(() => {
       if (selectedProject.value) {
+        
         return filterProjectsByCategory();
       } else if (searchProject.value) {
         return filterProjectsBySearch();
@@ -30,6 +31,10 @@ export default defineComponent({
       return store.projects.filter((el) => el.title.match(project));
     };
 
+    const handleProjectChange = (value: string) => {
+      selectedProject.value = value;
+    };
+
     onMounted(() => {
       feather.replace();
     });
@@ -41,6 +46,7 @@ export default defineComponent({
       selectedProject,
       searchProject,
       filteredProjects,
+      handleProjectChange,
     };
   },
 });
@@ -57,7 +63,7 @@ export default defineComponent({
           sm:text-5xl
           font-semibold
           mb-2
-          
+
           text-ternary-dark
           dark:text-ternary-light
         ">
@@ -120,7 +126,7 @@ export default defineComponent({
               dark:text-ternary-light
             " id="name" name="name" type="search" required="" placeholder="Rechercher un projet" aria-label="Name" />
             </div>
-            <ProjectsFilter @change="selectedProject = $event" />
+            <ProjectsFilter @change="handleProjectChange" />
         </div>
     </div>
 
