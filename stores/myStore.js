@@ -10,7 +10,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
         title: "Auri-Archive",
         category: "Web Application",
-        img: "images/auri_archive01.png",
+        img: "/images/auri_archive01.PNG",
         publishDate: "Nov 04, 2021",
         tag: "UI / Frontend",
         clientTitle: "A propos du client",
@@ -24,17 +24,17 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Auri-Archive",
-            img: "../images/auri_archive01.png",
+            img: "/images/auri_archive01.PNG",
           },
           {
             id: uuidv4(),
             title: "Auri-Archive",
-            img: "../images/auri_archive02.png",
+            img: "/images/auri_archive02.PNG",
           },
           {
             id: uuidv4(),
             title: "Auri-Archive",
-            img: "../images/auri_archive03.png",
+            img: "/images/auri_archive03.PNG",
           },
         ],
         companyInfos: [
@@ -115,7 +115,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
         title: "Borne du coin",
         category: "Mobile Application",
-        img: "images/kanya.jpg",
+        img: "/images/kanya.jpg",
         publishDate: "Jan, 2022",
         tag: "UI / Frontend",
         clientTitle: "Apropos du client",
@@ -129,17 +129,17 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Borne du coin",
-            img: "../images/kanya01.jpg",
+            img: "/images/kanya01.jpg",
           },
           {
             id: uuidv4(),
             title: "Borne du coin",
-            img: "../images/kanya02.jpg",
+            img: "/images/kanya02.jpg",
           },
           {
             id: uuidv4(),
             title: "Borne du coin",
-            img: "../images/kanya03.jpg",
+            img: "/images/kanya03.jpg",
           },
         ],
         companyInfos: [
@@ -200,7 +200,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
         title: "Auri-Immo",
         category: "Web Application",
-        img: "images/auri_immo01.png",
+        img: "/images/auri_immo01.PNG",
         publishDate: "Dec, 2022",
         tag: "UI / Web Application",
         clientTitle: "Apropos du client",
@@ -214,17 +214,17 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Auri-Immo",
-            img: "../images/auri_immo01.png",
+            img: "/images/auri_immo01.PNG",
           },
           {
             id: uuidv4(),
             title: "Auri-Immo",
-            img: "../images/auri_immo02.png",
+            img: "/images/auri_immo02.PNG",
           },
           {
             id: uuidv4(),
             title: "Auri-Immo",
-            img: "../images/auri_immo03.png",
+            img: "/images/auri_immo03.PNG",
           },
         ],
         companyInfos: [
@@ -299,7 +299,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
         title: "Mavuno",
         category: "UI/UX Design",
-        img: "images/mavunu01.png",
+        img: "/images/mavunu01.PNG",
         publishDate: "Nov, 2023",
         tag: "UI / Frontend",
         clientTitle: "Apropos du client",
@@ -313,17 +313,17 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Mavuno",
-            img: "../images/mavunu02.png",
+            img: "/images/mavunu02.PNG",
           },
           {
             id: uuidv4(),
             title: "Mavuno",
-            img: "../images/Mavunu03.png",
+            img: "/images/Mavunu03.PNG",
           },
           {
             id: uuidv4(),
             title: "Mavuno",
-            img: "../images/Mavunu04.png",
+            img: "/images/Mavunu04.PNG",
           },
         ],
         companyInfos: [
@@ -381,7 +381,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
         title: "Conception logos",
         category: "Logos & Animations",
-        img: "images/ordinary_03.jpg",
+        img: "/images/ordinary_03.jpg",
         publishDate: "Feb, 2024",
         tag: "Illustrator/Design",
         clientTitle: "Apropos client",
@@ -395,33 +395,33 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/ordinary_02.jpg",
+            img: "/images/ordinary_02.jpg",
           },
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/ordinary_03.jpg",
+            img: "/images/ordinary_03.jpg",
           },
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/MPC.jpg",
+            img: "/images/MPC.jpg",
           },
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/ordinary_01.jpg",
+            img: "/images/ordinary_01.jpg",
           },
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/libota.jpg",
+            img: "/images/libota.jpg",
           },
   
           {
             id: uuidv4(),
             title: "Conception logos",
-            img: "../images/TWC_new.jpg",
+            img: "/images/TWC_new.jpg",
           },
         ],
         companyInfos: [
@@ -481,7 +481,7 @@ export const useProjectStore = defineStore('project', {
         id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
         title: "Conception flyers",
         category: "flyers",
-        img: "images/image05.jpg",
+        img: "/images/image05.jpg",
         publishDate: "Apr 12, 2024",
         tag: "flyers",
         clientTitle: "Apropos du client",
@@ -495,32 +495,32 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image07.jpg",
+            img: "/images/image07.jpg",
           },
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image05.jpg",
+            img: "/images/image05.jpg",
           },
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image06.jpg",
+            img: "/images/image06.jpg",
           },
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image01.jpg",
+            img: "/images/image01.jpg",
           },
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image02.jpg",
+            img: "/images/image02.jpg",
           },
           {
             id: uuidv4(),
             title: "flyers",
-            img: "../images/image03.jpg",
+            img: "/images/image03.jpg",
           },
         ],
         companyInfos: [
@@ -582,27 +582,27 @@ export const useProjectStore = defineStore('project', {
       {
         id: uuidv4(),
         title: "aurtech",
-        img: "../brands/aurtech_gray.jpg",
+        img: "/brands/aurtech_gray.jpg",
       },
       {
         id: uuidv4(),
         title: "Kanya",
-        img: "../brands/kanya_gray.jpg",
+        img: "/brands/kanya_gray.jpg",
       },
       {
         id: uuidv4(),
         title: "Trinix",
-        img: "../brands/trinix_gray.jpg",
+        img: "/brands/trinix_gray.jpg",
       },
       {
         id: uuidv4(),
         title: "Fehap",
-        img: "../brands/fehap_gray.jpg",
+        img: "/brands/fehap_gray.jpg",
       },
       {
         id: uuidv4(),
         title: "Futures Leaders Academy",
-        img: "../brands/fla_gray.jpg",
+        img: "/brands/fla_gray.jpg",
       },
   
     ],
