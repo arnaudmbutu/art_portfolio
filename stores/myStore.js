@@ -318,12 +318,12 @@ export const useProjectStore = defineStore('project', {
           {
             id: uuidv4(),
             title: "Mavuno",
-            img: "/images/Mavunu03.PNG",
+            img: "/images/mavunu03.PNG",
           },
           {
             id: uuidv4(),
             title: "Mavuno",
-            img: "/images/Mavunu04.PNG",
+            img: "/images/mavunu04.PNG",
           },
         ],
         companyInfos: [
