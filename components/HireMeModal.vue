@@ -26,7 +26,7 @@ export default defineComponent({
           headers: {
             'Content-Type': 'application/json',
           },
-          body: formData.value,
+          body: this.formData,
         });
 
         if (response) {
