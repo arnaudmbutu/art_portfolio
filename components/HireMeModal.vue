@@ -19,17 +19,26 @@ export default defineComponent({
     feather.replace();
   },
   methods: {
-    onSubmitted() {
-      this.$axios.post('https://formspree.io/f/mdoqbdrj', this.formData)
-        .then(() => {
-          this.alertMessage = "Le message a été envoyé avec succès !";
-          this.isAlertVisible = true;
-
-          this.$router.go(-1);
-        })
-        .catch((error) =>{
-          console.log(error);
+    async onSubmitted() {
+      try {
+        const response = await $fetch('https://formspree.io/f/mdoqbdrj', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: formData.value,
         });
+
+        if (response) {
+          alertMessage.value = 'Le message a été envoyé avec succès !';
+          isAlertVisible.value = true;
+
+          // Navigate back or reset the form as needed
+          nuxtApp.$router.back(); // Uncomment if you want to go back
+        }
+      } catch (error) {
+        console.error(error);
+      }
     },
     closeCustomAlert() {
       this.isAlertVisible = false;
